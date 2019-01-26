@@ -1,0 +1,1 @@
+{"uuid":"66832131-c33a-4cb3-81bf-c62c5c9f0e75","name":"FreeCRMTestSinglton.FreeCRMTestClass.tearDown","description":"","start":1547699101215,"stop":1547699103373,"children":["d115c282-a9aa-4e3e-8d4e-012c4c54248a"],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","start":1547699101216,"stop":1547699103373}]}

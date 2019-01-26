@@ -1,0 +1,1 @@
+{"uuid":"eb3a2a4b-92fb-4057-850a-cb27cf50f5aa","name":"TestNGFeatures.TestNGBasics.login","description":"","start":1548306396532,"stop":1548306396533,"children":["695b45a9-cd21-45d6-9508-ac60a957e035"],"befores":[{"name":"login","status":"passed","stage":"finished","description":"","start":1548306396532,"stop":1548306396532}]}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Sanity TestSuite]" parallel="tests">
+  <test thread-count="2" name="parellelTest2 Browser FF(failed)" parallel="tests">
+    <parameter name="myBrowser" value="firefox"/>
+    <classes>
+      <class name="com.qa.hubspot.parellelTestcases.ParellelTestcases">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getBrowser"/>
+          <include name="ebayPageTitleTestParellelModeOn"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.parellelTestcases.ParellelTestcases -->
+    </classes>
+  </test> <!-- parellelTest2 Browser FF(failed) -->
+  <test thread-count="2" name="parellelTest4 Browser FF(failed)" parallel="tests">
+    <parameter name="myBrowser" value="firefox"/>
+    <classes>
+      <class name="com.qa.hubspot.parellelTestcases.ParellelTestcases">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getBrowser"/>
+          <include name="ebayPageTitleTestParellelModeOn"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.parellelTestcases.ParellelTestcases -->
+    </classes>
+  </test> <!-- parellelTest4 Browser FF(failed) -->
+</suite> <!-- Failed suite [Sanity TestSuite] -->

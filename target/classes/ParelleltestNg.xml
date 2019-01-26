@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity TestSuite" parallel="tests" thread-count="2"
+	preserve-order="true">
+
+	<test name="parellelTest1 Browser Chrome">
+		<parameter name="myBrowser" value="chrome"></parameter>
+		<classes>
+			<class name="com.qa.hubspot.parellelTestcases.ParellelTestcases"></class>
+		</classes>
+	</test>
+	
+	<test name="parellelTest2 Browser FF">
+		<parameter name="myBrowser" value="firefox"></parameter>
+		<classes>
+			<class name="com.qa.hubspot.parellelTestcases.ParellelTestcases"></class>
+		</classes>
+	</test>
+	
+	<test name="parellelTest3 Browser Chrome">
+		<parameter name="myBrowser" value="chrome"></parameter>
+		<classes>
+			<class name="com.qa.hubspot.parellelTestcases.ParellelTestcases"></class>
+		</classes>
+	</test>
+	
+	<test name="parellelTest4 Browser FF">
+		<parameter name="myBrowser" value="firefox"></parameter>
+		<classes>
+			<class name="com.qa.hubspot.parellelTestcases.ParellelTestcases"></class>
+		</classes>
+	</test>
+	
+	
+</suite>

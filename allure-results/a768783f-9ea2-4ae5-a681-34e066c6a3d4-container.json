@@ -1,0 +1,1 @@
+{"uuid":"a768783f-9ea2-4ae5-a681-34e066c6a3d4","name":"FreeCRMTestSinglton.FreeCRMTestClass.setUp","description":"","start":1547699070983,"stop":1547699099415,"children":["d115c282-a9aa-4e3e-8d4e-012c4c54248a"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","start":1547699070984,"stop":1547699099415}]}

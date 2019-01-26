@@ -1,0 +1,1 @@
+{"uuid":"a57c104a-fdea-4186-920f-07cb4b8cd78e","name":"TestNGFeatures.HUBSPOTLogin.setUp","description":"","start":1548239943376,"stop":1548239951400,"children":["05d413a1-d979-4752-9cdf-e3be83b8a860"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","start":1548239943377,"stop":1548239951399}]}

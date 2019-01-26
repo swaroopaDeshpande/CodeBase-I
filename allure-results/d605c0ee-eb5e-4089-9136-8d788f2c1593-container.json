@@ -1,0 +1,1 @@
+{"uuid":"d605c0ee-eb5e-4089-9136-8d788f2c1593","name":"TestNGFeatures.HUBSPOTLogin.tearDown","description":"","start":1548239611547,"stop":1548239612218,"children":["628bb204-e6c2-4c0f-a174-6943130bd369"],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","start":1548239611547,"stop":1548239612218}]}
