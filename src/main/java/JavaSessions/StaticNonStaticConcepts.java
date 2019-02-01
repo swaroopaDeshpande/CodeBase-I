@@ -17,7 +17,6 @@ public class StaticNonStaticConcepts {
 		obj.sendMail();
 		System.out.println(obj.name);
 		System.out.println(age);
-
 	}
 
 	// class methods
