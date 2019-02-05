@@ -1,6 +1,6 @@
 package OOPS;
 
-public class inheritanceConcept {
+public class InheritanceConcept {
 
 	public static void main(String[] args) {
 		// truck-Grandparent--super most class

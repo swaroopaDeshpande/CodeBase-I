@@ -1,6 +1,6 @@
 package OOPS;
 
-public class TESTBank {
+public class TestBank {
 
 	public static void main(String[] args) {
 		HDFCBank hb = new HDFCBank();

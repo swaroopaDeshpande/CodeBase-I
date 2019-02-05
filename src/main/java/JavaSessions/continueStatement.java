@@ -1,6 +1,6 @@
 package JavaSessions;
 
-public class continueStatement {
+public class ContinueStatement {
 
 	public static void main(String[] args) {
 		// continue :jumps to the next iteration

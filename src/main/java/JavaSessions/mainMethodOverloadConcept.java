@@ -1,6 +1,6 @@
 package JavaSessions;
 
-public class mainMethodOverloadConcept {
+public class MainMethodOverLoadConcept {
 	// can we call main method from other class
 	// yes as its a static in nature we can access it using by its name
 
@@ -11,7 +11,7 @@ public class mainMethodOverloadConcept {
 		System.out.println("main method");
 		main("swaroopa");
 		main(10, 20);
-		mainMethodOverloadConcept obj = new mainMethodOverloadConcept();
+		MainMethodOverLoadConcept obj = new MainMethodOverLoadConcept();
 		obj.main();
 	}
 

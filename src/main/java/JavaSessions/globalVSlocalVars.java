@@ -1,6 +1,6 @@
 package JavaSessions;
 
-public class globalVSlocalVars {
+public class GlobalVsLocalVars {
 	// global vars: scope through out class
 	// if you want to access global vars access it via obj ref name
 	int age;
@@ -10,7 +10,7 @@ public class globalVSlocalVars {
 
 		int j = 100;// local vars scope is limited to
 		System.out.println(j);
-		globalVSlocalVars obj = new globalVSlocalVars();
+		GlobalVsLocalVars obj = new GlobalVsLocalVars();
 		obj.sum(10);
 		System.out.println(obj.name);
 		System.out.println(obj.age);

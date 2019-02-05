@@ -1,6 +1,6 @@
 package JavaSessions;
 
-public class StrinImmutabilityConcept {
+public class StringImmutabilityConcept {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

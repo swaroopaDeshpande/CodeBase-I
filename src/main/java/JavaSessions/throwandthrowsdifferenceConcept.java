@@ -1,6 +1,6 @@
 package JavaSessions;
 
-public class throwandthrowsdifferenceConcept {
+public class ThrowAndThrowsDifferenceConcept {
 
 	public static void main(String[] args) {
 		// throw: keyword used to throw an exception explicitely
