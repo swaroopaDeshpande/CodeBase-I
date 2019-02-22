@@ -1,6 +1,6 @@
 package JavaSessions;
 
-public class ImmutabilityvsFinalConcept {
+public class ImmutabilityVsFinalConcept {
 
 	public static void main(String[] args) {
 		// we cannot achieve immutability via declaring reference variable as
@@ -12,7 +12,7 @@ public class ImmutabilityvsFinalConcept {
 		// if you declare reference variable as final then u can't reassign that
 		// reference var to new object
 		// you can perform changes in current object but you can't reassign this
-		// reference varibale to new object
+		// reference variable to new object
 
 		final StringBuffer sb = new StringBuffer("Swaroopa");
 		sb.append("Software");

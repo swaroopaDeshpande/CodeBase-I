@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class gmailAccountCreationScenario {
+public class GmailAccountCreationScenario {
 
 	public static void main(String[] args) {
 		// https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&flowName=GlifWebSignIn&flowEntry=SignUp

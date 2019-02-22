@@ -1,6 +1,6 @@
 package JavaSessions;
 
-public class finalFinallyFinalizedConcept {
+public class FinalFinallyFinalizedConcept {
 
 	public static void main(String[] args) {
 		/*
