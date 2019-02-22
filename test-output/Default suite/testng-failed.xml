@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.hubspot.parellelTestcases.ParellelTestcases">
+      <class name="com.qa.hubspot.parellelTestcases.ThreadLocalDemo">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="getBrowser"/>
-          <include name="ebayPageTitleTestParellelModeOn"/>
+          <include name="testMethod2"/>
+          <include name="testMethod1"/>
         </methods>
-      </class> <!-- com.qa.hubspot.parellelTestcases.ParellelTestcases -->
+      </class> <!-- com.qa.hubspot.parellelTestcases.ThreadLocalDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
