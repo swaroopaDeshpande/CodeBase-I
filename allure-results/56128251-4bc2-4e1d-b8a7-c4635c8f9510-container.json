@@ -1,0 +1,1 @@
+{"uuid":"56128251-4bc2-4e1d-b8a7-c4635c8f9510","name":"com.qa.selenium.quickrecap.SeleniumBasics.setUp","description":"","start":1554008802482,"stop":1554008811593,"children":["765caa66-d545-4ad4-bae4-974fe4708e94"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","start":1554008802483,"stop":1554008811592}]}

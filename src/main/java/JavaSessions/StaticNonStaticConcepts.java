@@ -10,6 +10,7 @@ public class StaticNonStaticConcepts {
 		// access non static : class var name and method sendMail()-->Need to
 		// create object and access via obj ref
 		// access static-static stored in permant Generation--method area static
+		//now permant generation is absolute and now its metaspace
 		// is not part of object
 		// in car : every car have 4 wheels -->define static int wheels =4;
 		// common feature, common memory allocation

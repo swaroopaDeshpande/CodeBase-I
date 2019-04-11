@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
-  <listeners>
-    <listener class-name="com.qa.ParellelTests.WebDriverListener"/>
-  </listeners>
-  <test thread-count="5" name="Test(failed)" parallel="methods">
-    <parameter name="browserName" value="chrome"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.hubspot.parellelTestcases.ThreadLocalDemo">
+      <class name="com.qa.selenium.quickrecap.ScreenShotPracto">
         <methods>
-          <include name="testMethod2"/>
-          <include name="testMethod1"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.qa.hubspot.parellelTestcases.ThreadLocalDemo -->
+      </class> <!-- com.qa.selenium.quickrecap.ScreenShotPracto -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

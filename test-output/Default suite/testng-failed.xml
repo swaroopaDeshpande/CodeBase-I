@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.hubspot.parellelTestcases.ThreadLocalDemo">
+      <class name="com.qa.selenium.quickrecap.ScreenShotPracto">
         <methods>
-          <include name="testMethod2"/>
-          <include name="testMethod1"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.qa.hubspot.parellelTestcases.ThreadLocalDemo -->
+      </class> <!-- com.qa.selenium.quickrecap.ScreenShotPracto -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
