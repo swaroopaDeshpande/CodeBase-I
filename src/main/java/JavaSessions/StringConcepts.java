@@ -53,6 +53,15 @@ public class StringConcepts {
 																	// =0 n-1;0
 		// to 25-26
 		System.out.println("Length of mystring1 is " + mystring1.length());
+		String s= "Scope of Automation is good now a days.Automation using selenium Automation is now having boom";
+		System.out.println("Length of string s is"+s.length());
+		System.out.println("Char at 2nd position in the string s is"+s.charAt(2));
+		System.out.println("Index of string s is"+s.indexOf("Automation"));//9
+		System.out.println("Second occurences of Automatomation is"+s.indexOf("Automation", s.indexOf("Automation")+1));
+		System.out.println("Third occurences of Automatomation is"+s.indexOf("Automation", s.indexOf("Automation")+1)+s.indexOf("Automation"));
+
+		
+		
 		// giving character represents that index position
 		System.out.println(mystring1.charAt(26));
 		// System.out.println(mystring1.charAt(27));//String index out of
