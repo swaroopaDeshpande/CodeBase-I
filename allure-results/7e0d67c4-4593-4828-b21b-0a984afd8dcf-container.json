@@ -1,0 +1,1 @@
+{"uuid":"7e0d67c4-4593-4828-b21b-0a984afd8dcf","name":"com.qa.selenium.quickrecap.ScreenShotPracto.tearDown","description":"","start":1554112974714,"stop":1554112975632,"children":["3594c04d-e32e-4db2-b3c6-4086124e33ae"],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","start":1554112974714,"stop":1554112975632}]}

@@ -1,0 +1,1 @@
+{"uuid":"c6b79c32-9c0d-47ac-be7c-51d2d9064dfc","name":"com.qa.selenium.quickrecap.headlessFireFox.setUp","description":"","start":1554099475426,"stop":1554099520442,"children":["43532182-bcd7-453a-8ff5-c1a8f329a9dc"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","start":1554099475427,"stop":1554099520441}]}

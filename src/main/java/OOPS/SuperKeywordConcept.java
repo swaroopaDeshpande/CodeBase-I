@@ -2,13 +2,13 @@ package OOPS;
 
 public class SuperKeywordConcept {
 
-	public SuperKeywordConcept() {
-		System.out.println("default");
-	}
-
-	public SuperKeywordConcept(int i) {
-		System.out.println(i);
-	}
+//	public SuperKeywordConcept() {
+//		System.out.println("default");
+//	}
+//
+//	public SuperKeywordConcept(int i) {
+//		System.out.println(i);
+//	}
 
 	public static void main(String[] args) {
 		// use to call parent class constructor explicitely we use super keyword

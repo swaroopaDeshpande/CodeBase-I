@@ -3,7 +3,7 @@ package OOPS;
 public class SuperKeywordConceptChildclass extends SuperKeywordConcept {
 
 	public SuperKeywordConceptChildclass() {
-		super(100);
+		//super();
 		System.out.println("default constructor-Child class");
 	}
 
@@ -12,6 +12,6 @@ public class SuperKeywordConceptChildclass extends SuperKeywordConcept {
 
 		SuperKeywordConceptChildclass obj = new SuperKeywordConceptChildclass();
 
-	}
+ 	}
 
 }

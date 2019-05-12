@@ -1,0 +1,1 @@
+{"uuid":"a95da8be-b394-4225-9018-2082922cbde0","name":"com.qa.selenium.quickrecap.headlessFireFox.tearDown","description":"","start":1554099520967,"stop":1554099523174,"children":["43532182-bcd7-453a-8ff5-c1a8f329a9dc"],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","start":1554099520968,"stop":1554099523174}]}
