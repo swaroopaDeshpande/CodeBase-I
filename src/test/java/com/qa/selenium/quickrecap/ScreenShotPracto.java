@@ -1,5 +1,7 @@
 package com.qa.selenium.quickrecap;
 
+import java.awt.AWTException;
+import java.awt.Robot;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
@@ -32,12 +34,14 @@ public class ScreenShotPracto {
 	}
 
 	@Test
-	public static void loginTest() throws IOException {
+	public static void loginTest() throws IOException, AWTException {
 		
 		String title= driver.getTitle();
 		System.out.println(title);
 		
 		Assert.assertEquals(title, "Google");
+		Robot robot=new Robot();
+		robot.getClass();
 		
 		
 	}

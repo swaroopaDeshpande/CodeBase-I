@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Test Automation Test Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListner.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="2" name="ExtentReportTrial(failed)" parallel="tests">
+    <classes>
+      <class name="FreeCRMTestSinglton.FreeCRMTestClass">
+        <methods>
+          <include name="verifyFreeCRMTitle"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="logoTest"/>
+        </methods>
+      </class> <!-- FreeCRMTestSinglton.FreeCRMTestClass -->
+    </classes>
+  </test> <!-- ExtentReportTrial(failed) -->
+</suite> <!-- Failed suite [Test Automation Test Suite] -->

@@ -1,0 +1,1 @@
+{"uuid":"4cf2da7a-d8a3-4d50-8466-2aca7d0f1988","name":"TestNGFeatures.Log4JTest.tearDown","description":"","start":1557551154593,"stop":1557551154734,"children":["16c2fa28-3cd5-417d-9f35-10fcbbbd8ac8"],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","start":1557551154593,"stop":1557551154734}]}

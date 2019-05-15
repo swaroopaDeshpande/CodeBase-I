@@ -1,16 +1,22 @@
 package JavaSessions;
 
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
 public class StaticNonStaticConcepts {
 	// class vars-global vars+class methods=class members
 	String name = "Tom";
 	static int age = 30;
+	 DesiredCapabilities capability ;
+
 
 	public static void main(String[] args) {
 
 		// access non static : class var name and method sendMail()-->Need to
 		// create object and access via obj ref
-		// access static-static stored in permant Generation/Meta Space--method area static
-		//now permant generation is absolute and now its metaspace
+		// access static-static stored in permant Generation/Meta Space--method
+		// area static
+		// now permant generation is absolute and now its metaspace
 		// is not part of object
 		// in car : every car have 4 wheels -->define static int wheels =4;
 		// common feature, common memory allocation
@@ -18,6 +24,8 @@ public class StaticNonStaticConcepts {
 		obj.sendMail();
 		System.out.println(obj.name);
 		System.out.println(age);
+		String current = System.getProperty("user.dir");
+		System.out.println("Current working directory in Java : " + current);
 	}
 
 	// class methods

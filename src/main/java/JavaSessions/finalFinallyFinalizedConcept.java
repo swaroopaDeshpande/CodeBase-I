@@ -10,7 +10,9 @@ public class FinalFinallyFinalizedConcept {
 		 * String login_page_title = "Free CRM software in the cloud 1.2 to
 		 * avoid inheritance if we declare class as final we cannot inherit that
 		 * class 1.3 if we declare method in parent class as final we cannot
-		 * override that method 2.finally: its used with the sense of try and
+		 * override that method 
+		 * 
+		 * 2.finally: its used with the sense of try and
 		 * catch block try{
 		 * 
 		 * throw new Arithmatic Exception("test"); } catch(Arithmatic expression

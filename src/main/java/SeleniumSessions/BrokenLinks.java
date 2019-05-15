@@ -17,7 +17,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class BrokenLinks {
 
 	public static void main(String[] args) throws MalformedURLException, IOException {
-		// TODO Auto-generated method stub
 
 		System.setProperty("webdriver.chrome.driver", "E:\\selenium\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
@@ -44,7 +43,8 @@ public class BrokenLinks {
 		// attribute
 		for (int i = 0; i < linksList.size(); i++) {
 			System.out.println(linksList.get(i).getAttribute("href"));
-			if (linksList.get(i).getAttribute("href") != null && (! linksList.get(i).getAttribute("href").contains("javascript"))) {
+			if (linksList.get(i).getAttribute("href") != null
+					&& (!linksList.get(i).getAttribute("href").contains("javascript"))) {
 				activelinks.add(linksList.get(i));
 			}
 		}

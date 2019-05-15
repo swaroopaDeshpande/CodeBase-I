@@ -3,11 +3,13 @@ package TestNGFeatures;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class Log4JTest {
@@ -22,8 +24,16 @@ public class Log4JTest {
 	// 4.fatal
 	// Apche log4J api
 	// how it works?-->it reads log 4j configuration from log4j.properties file
-	static Logger log = Logger.getLogger(Log4JTest.class.getName());
+
 	public static WebDriver driver;
+
+	@BeforeTest
+	public void TestDataSetup() {
+		Logger logger = Logger.getLogger("Logger_File");
+		PropertyConfigurator.configure("C:\\Users\\HP\\workspace\\CodeBase-I\\src\\main\\resources\\log4J.properties");
+		logger.info("Issue Created with id \t");
+
+	}
 
 	@BeforeMethod
 	public void setup() {
@@ -41,7 +51,7 @@ public class Log4JTest {
 	public void freecrmTitleTest() {
 		String title = driver.getTitle();
 		System.out.println(title);
-		Assert.assertEquals(title, "#1 Free CRM software in the cloud for sales and service");
+		Assert.assertEquals(title, "www.freecrm.com");
 	}
 
 	@AfterMethod

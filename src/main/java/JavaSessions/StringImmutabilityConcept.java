@@ -17,6 +17,14 @@ public class StringImmutabilityConcept {
 		System.out.println(s1==s2);
 		System.out.println(s1==s3);
 		System.out.println(s1==s4);;
+		
+		String s="Durga";
+		s.concat("Software");
+		System.out.println(s);
+		
+		StringBuffer sb= new StringBuffer("Durga");
+		sb.append("software");
+		System.out.println(sb);
 
 	}
 

@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.selenium.quickrecap.ScreenShotPracto">
+      <class name="TestNGFeatures.Log4JTest">
         <methods>
-          <include name="loginTest"/>
+          <include name="freecrmTitleTest"/>
+          <include name="TestDataSetup"/>
           <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.qa.selenium.quickrecap.ScreenShotPracto -->
+      </class> <!-- TestNGFeatures.Log4JTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

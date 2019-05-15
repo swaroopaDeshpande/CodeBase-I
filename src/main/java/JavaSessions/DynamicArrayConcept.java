@@ -30,7 +30,7 @@ public class DynamicArrayConcept {
 		// Properties of arrayList
 				// 1.Can store duplicate values
 				// 2.it maintain Insertion order
-				// 3.Synchronized(Thread safe)--Slow
+				// 3.non Synchronized(No Thread safe)--Slow
 				// 4.Random access to elements : as store value on index basis
 
 				// How to use arraylist for user defined class objects
