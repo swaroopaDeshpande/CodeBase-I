@@ -25,7 +25,7 @@ public class HashMapConcept {
 		hm.put(30, "ALM");
 		hm.put(40, "Jira");
 		hm.put(null, "BugZilla");
-		// hm.put(null, "TestNull");
+		 hm.put(null, "TestNull");
 
 		hm.put(50, "Cucumber");
 		hm.put(70, null);

@@ -6,11 +6,13 @@ import java.util.Set;
 
 public class HashTableConcept {
 
+	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
 
 		// it is similar to hashmap but it is synchronized
 		// stores value on the basis of key and value
 		// Key-->stored as Object-->each object has unique HashCode-->Value
+		// key has unique hashcode value
 		// Hashtable stored key --basis of HashCode
 		// <1458522,"Tom">
 		// it contains unique values

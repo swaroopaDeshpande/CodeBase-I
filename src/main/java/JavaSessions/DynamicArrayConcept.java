@@ -3,6 +3,8 @@ package JavaSessions;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+import jnr.ffi.annotations.Synchronized;
+
 
 public class DynamicArrayConcept {
 
@@ -46,6 +48,8 @@ public class DynamicArrayConcept {
 			Emp employee = it.next();
 			System.out.println(employee.name);
 			System.out.println(employee.age);
+			
+			
 		}
 
 	}
