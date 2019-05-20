@@ -1,25 +1,927 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="19" failed="0" ignored="2" total="21" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14045" started-at="2019-05-13T02:42:10Z" finished-at="2019-05-13T02:42:24Z">
+  <suite name="SmokeTestSuite" duration-ms="11520" started-at="2019-05-19T11:23:07Z" finished-at="2019-05-19T11:23:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14045" started-at="2019-05-13T02:42:10Z" finished-at="2019-05-13T02:42:24Z">
-      <class name="com.qa.selenium.quickrecap.ScreenShotPracto">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.selenium.quickrecap.ScreenShotPracto@4c1d9d4b]" name="setUp" is-config="true" duration-ms="11281" started-at="2019-05-13T02:42:10Z" finished-at="2019-05-13T02:42:22Z">
+    <test name="Smoke Scenarios" duration-ms="11520" started-at="2019-05-19T11:23:07Z" finished-at="2019-05-19T11:23:19Z">
+      <class name="TestNGFeatures.Log4JTest">
+        <test-method status="SKIP" signature="setup()[pri:0, instance:TestNGFeatures.Log4JTest@2bbf180e]" name="setup" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="freecrmTitleTest()[pri:0, instance:TestNGFeatures.Log4JTest@2bbf180e]" name="freecrmTitleTest" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freecrmTitleTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:TestNGFeatures.Log4JTest@2bbf180e]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGFeatures.Log4JTest -->
+      <class name="com.qa.hubspot.parellelTestcases.ParellelTestcases">
+        <test-method status="SKIP" signature="ebayPageTitleTestParellelModeOn()[pri:0, instance:com.qa.hubspot.parellelTestcases.ParellelTestcases@d4342c2]" name="ebayPageTitleTestParellelModeOn" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ebayPageTitleTestParellelModeOn -->
+      </class> <!-- com.qa.hubspot.parellelTestcases.ParellelTestcases -->
+      <class name="TestNGFeatures.AnnotationsRealLifeExample">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNGFeatures.AnnotationsRealLifeExample@4e91d63f]" name="setUp" is-config="true" duration-ms="202" started-at="2019-05-19T11:21:53Z" finished-at="2019-05-19T11:21:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.qa.selenium.quickrecap.ScreenShotPracto@4c1d9d4b]" name="loginTest" duration-ms="1089" started-at="2019-05-13T02:42:22Z" finished-at="2019-05-13T02:42:23Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:TestNGFeatures.TestNGBasicsTest@1a04f701]" name="launchBrowser" is-config="true" duration-ms="74328" started-at="2019-05-19T11:21:53Z" finished-at="2019-05-19T11:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:TestNGFeatures.AnnotationsRealLifeExample@4e91d63f]" name="launchBrowser" is-config="true" duration-ms="6996" started-at="2019-05-19T11:23:08Z" finished-at="2019-05-19T11:23:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TestDataSetup()[pri:0, instance:TestNGFeatures.Log4JTest@2bbf180e]" name="TestDataSetup" is-config="true" duration-ms="19" started-at="2019-05-19T11:23:15Z" finished-at="2019-05-19T11:23:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDataSetup -->
+        <test-method status="FAIL" signature="getBrowser(java.lang.String)[pri:0, instance:com.qa.hubspot.parellelTestcases.ParellelTestcases@d4342c2]" name="getBrowser" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:15Z" finished-at="2019-05-19T11:23:15Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrowser -->
+        <test-method status="SKIP" signature="deleteCookies()[pri:0, instance:TestNGFeatures.TestNGBasicsTest@1a04f701]" name="deleteCookies" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:15Z" finished-at="2019-05-19T11:23:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookies -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGFeatures.AnnotationsRealLifeExample@4e91d63f]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.qa.hubspot.parellelTestcases.ParellelTestcases@d4342c2]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="closeDBConnection()[pri:0, instance:TestNGFeatures.TestNGBasicsTest@1a04f701]" name="closeDBConnection" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDBConnection -->
+        <test-method status="SKIP" signature="deleteAllCookies()[pri:0, instance:TestNGFeatures.AnnotationsRealLifeExample@4e91d63f]" name="deleteAllCookies" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllCookies -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGFeatures.TestNGBasicsTest@1a04f701]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestNGFeatures.AnnotationsRealLifeExample -->
+      <class name="com.qa.selenium.quickrecap.SeleniumBasics">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.selenium.quickrecap.SeleniumBasics@6193932a]" name="setUp" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="loginTest()[pri:0, instance:com.qa.selenium.quickrecap.SeleniumBasics@6193932a]" name="loginTest" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.selenium.quickrecap.ScreenShotPracto@4c1d9d4b]" name="tearDown" is-config="true" duration-ms="698" started-at="2019-05-13T02:42:24Z" finished-at="2019-05-13T02:42:24Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.selenium.quickrecap.SeleniumBasics@6193932a]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.selenium.quickrecap.SeleniumBasics -->
+      <class name="com.qa.hubspot.parellelTestcases.ThreadLocalDemo">
+        <test-method status="SKIP" signature="testMethod1()[pri:0, instance:com.qa.hubspot.parellelTestcases.ThreadLocalDemo@5276e6b0]" name="testMethod1" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method status="SKIP" signature="testMethod2()[pri:0, instance:com.qa.hubspot.parellelTestcases.ThreadLocalDemo@5276e6b0]" name="testMethod2" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+      </class> <!-- com.qa.hubspot.parellelTestcases.ThreadLocalDemo -->
+      <class name="com.qa.selenium.quickrecap.headlessFireFox">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.selenium.quickrecap.headlessFireFox@159f197]" name="setUp" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="headlessBrowswerTest()[pri:0, instance:com.qa.selenium.quickrecap.headlessFireFox@159f197]" name="headlessBrowswerTest" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headlessBrowswerTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.selenium.quickrecap.headlessFireFox@159f197]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.selenium.quickrecap.headlessFireFox -->
+      <class name="com.qa.selenium.quickrecap.ScreenShotPracto">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.selenium.quickrecap.ScreenShotPracto@78aab498]" name="setUp" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="loginTest()[pri:0, instance:com.qa.selenium.quickrecap.ScreenShotPracto@78aab498]" name="loginTest" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.selenium.quickrecap.ScreenShotPracto@78aab498]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.selenium.quickrecap.ScreenShotPracto -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="FreeCRMTestSinglton.WMTest">
+        <test-method status="SKIP" signature="setup()[pri:0, instance:FreeCRMTestSinglton.WMTest@647fd8ce]" name="setup" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="freeCRMTest()[pri:0, instance:FreeCRMTestSinglton.WMTest@647fd8ce]" name="freeCRMTest" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freeCRMTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:FreeCRMTestSinglton.WMTest@647fd8ce]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FreeCRMTestSinglton.WMTest -->
+      <class name="TestNGFeatures.AssertionTest">
+        <test-method status="SKIP" signature="HomePageTest()[pri:0, instance:TestNGFeatures.AssertionTest@419c5f1a]" name="HomePageTest" duration-ms="0" started-at="2019-05-19T11:23:18Z" finished-at="2019-05-19T11:23:18Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTest -->
+        <test-method status="SKIP" signature="loginTest()[pri:0, instance:TestNGFeatures.AssertionTest@419c5f1a]" name="loginTest" duration-ms="0" started-at="2019-05-19T11:23:18Z" finished-at="2019-05-19T11:23:18Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:TestNGFeatures.AssertionTest@419c5f1a]" name="logoutTest" duration-ms="0" started-at="2019-05-19T11:23:18Z" finished-at="2019-05-19T11:23:18Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+      </class> <!-- TestNGFeatures.AssertionTest -->
+      <class name="FreeCRMTestSinglton.FreeCRMTestClass">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:FreeCRMTestSinglton.FreeCRMTestClass@769e7ee8]" name="setUp" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="logoTest()[pri:0, instance:FreeCRMTestSinglton.FreeCRMTestClass@769e7ee8]" name="logoTest" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:FreeCRMTestSinglton.FreeCRMTestClass@769e7ee8]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:FreeCRMTestSinglton.FreeCRMTestClass@769e7ee8]" name="setUp" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyFreeCRMTitle()[pri:0, instance:FreeCRMTestSinglton.FreeCRMTestClass@769e7ee8]" name="verifyFreeCRMTitle" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFreeCRMTitle -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:FreeCRMTestSinglton.FreeCRMTestClass@769e7ee8]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FreeCRMTestSinglton.FreeCRMTestClass -->
+      <class name="com.qa.selenium.quickrecap.ActionsClassTest">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.selenium.quickrecap.ActionsClassTest@56de5251]" name="setUp" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:18Z" finished-at="2019-05-19T11:23:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="actionclassTest()[pri:0, instance:com.qa.selenium.quickrecap.ActionsClassTest@56de5251]" name="actionclassTest" duration-ms="0" started-at="2019-05-19T11:23:18Z" finished-at="2019-05-19T11:23:18Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actionclassTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.selenium.quickrecap.ActionsClassTest@56de5251]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:18Z" finished-at="2019-05-19T11:23:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.selenium.quickrecap.ActionsClassTest -->
+      <class name="SeleniumSessions.SeleniumBasicsPracto">
+        <test-method status="SKIP" signature="Login()[pri:0, instance:SeleniumSessions.SeleniumBasicsPracto@71b1176b]" name="Login" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- SeleniumSessions.SeleniumBasicsPracto -->
+      <class name="FreeCRMTestSinglton.PDFReaderTest">
+        <test-method status="SKIP" signature="readPDFTest()[pri:0, instance:FreeCRMTestSinglton.PDFReaderTest@12b0404f]" name="readPDFTest" duration-ms="0" started-at="2019-05-19T11:23:19Z" finished-at="2019-05-19T11:23:19Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readPDFTest -->
+      </class> <!-- FreeCRMTestSinglton.PDFReaderTest -->
+      <class name="TestNGFeatures.HUBSPOTLogin">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGFeatures.HUBSPOTLogin@163e4e87]" name="setUp" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:15Z" finished-at="2019-05-19T11:23:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="loginTest()[pri:0, instance:TestNGFeatures.HUBSPOTLogin@163e4e87]" name="loginTest" duration-ms="0" started-at="2019-05-19T11:23:15Z" finished-at="2019-05-19T11:23:15Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:TestNGFeatures.HUBSPOTLogin@163e4e87]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:18Z" finished-at="2019-05-19T11:23:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGFeatures.HUBSPOTLogin@163e4e87]" name="setUp" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:18Z" finished-at="2019-05-19T11:23:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyLoginButtonTest()[pri:0, instance:TestNGFeatures.HUBSPOTLogin@163e4e87]" name="verifyLoginButtonTest" duration-ms="0" started-at="2019-05-19T11:23:18Z" finished-at="2019-05-19T11:23:18Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButtonTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:TestNGFeatures.HUBSPOTLogin@163e4e87]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:18Z" finished-at="2019-05-19T11:23:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGFeatures.HUBSPOTLogin@163e4e87]" name="setUp" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:18Z" finished-at="2019-05-19T11:23:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyLoginPageTitleTest()[pri:0, instance:TestNGFeatures.HUBSPOTLogin@163e4e87]" name="verifyLoginPageTitleTest" duration-ms="0" started-at="2019-05-19T11:23:18Z" finished-at="2019-05-19T11:23:18Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'myBrowser' is required by BeforeTest on method getBrowser but has not been marked @Optional or defined
+in C:\Users\HP\workspace\CodeBase-I\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:TestNGFeatures.HUBSPOTLogin@163e4e87]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-05-19T11:23:18Z" finished-at="2019-05-19T11:23:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGFeatures.HUBSPOTLogin -->
+    </test> <!-- Smoke Scenarios -->
+  </suite> <!-- SmokeTestSuite -->
 </testng-results>

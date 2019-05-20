@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeTestSuite" verbose="10">
+  <test thread-count="5" name="Smoke Scenarios">
+    <classes>
+      <class name="TestNGFeatures.HUBSPOTLogin"/>
+      <class name="com.qa.selenium.quickrecap.ActionsClassTest"/>
+      <class name="TestNGFeatures.AssertionTest"/>
+      <class name="FreeCRMTestSinglton.PDFReaderTest"/>
+      <class name="FreeCRMTestSinglton.FreeCRMTestClass"/>
+      <class name="com.qa.hubspot.parellelTestcases.ThreadLocalDemo"/>
+      <class name="com.qa.hubspot.parellelTestcases.ParellelTestcases"/>
+      <class name="TestNGFeatures.Log4JTest"/>
+      <class name="SeleniumSessions.SeleniumBasicsPracto"/>
+      <class name="TestNGFeatures.TestNGBasicsTest"/>
+      <class name="com.qa.selenium.quickrecap.SeleniumBasics"/>
+      <class name="FreeCRMTestSinglton.WMTest"/>
+      <class name="com.qa.selenium.quickrecap.headlessFireFox"/>
+      <class name="com.qa.selenium.quickrecap.ScreenShotPracto"/>
+      <class name="TestNGFeatures.AnnotationsRealLifeExample"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
